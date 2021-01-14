@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--------------- navigation ------------->
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./Penguin Fashion/Logo, Icon/LOGO.png" alt=""
                         class="w-100 h-100"></a>
@@ -22,28 +21,32 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link active" href="#">Product</a>
-                        <a class="nav-link active" href="#">About Us</a>
-                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" href="#">Product</a>
+                            <a class="nav-link active" href="#">About Us</a>
+                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                        </div>
                     </div>
-                </div>
             </div>
         </nav>
     </header>
+
+    <!----------MAIN_SECTION -------------->
+
     <main class="container">
 
         <!----------------------- PROFILE_SECTION --------------------------->
 
-        <section class="mt-5">
+        <section class="pt-5">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card profile-card h-100 shadow">
                         <div class="card-body">
                             <h1>BE THE PENGUINS <br>OF WINTER</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione perferendis dicta numquam eligendi ex iure.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione perferendis dicta
+                                numquam eligendi ex iure.</p>
                         </div>
                         <div class="card-footer profile-card-footer">
                             <button type="button" class="btn btn-warning">BUY</button>
@@ -74,8 +77,9 @@
                     <div class="card panda-card h-100 shadow">
                         <img src="./Penguin Fashion/Image/yellow_coat_jacket.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h3>Yellow Coat Jacket</h3>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, tempore.</p>
+                            <h3 class="card-title">Yellow Coat Jacket</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, tempore.
+                            </p>
                         </div>
                         <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
                             <p>$234</p>
@@ -87,9 +91,9 @@
                     <div class="card h-100 shadow">
                         <img src="./Penguin Fashion/Image/ladies_jacket.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Nike-360</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <h3 class="card-title">Ladies Jacket</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi ipsum
+                                illo fugiat?</p>
                         </div>
                         <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
                             <p>$234</p>
@@ -101,11 +105,9 @@
                     <div class="card h-100 shadow">
                         <img src="./Penguin Fashion/Image/woman_leather_jacket.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Red-Airmax</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This card has even longer content than the first to show that equal height
-                                action.</p>
+                            <h3 class="card-title">Woman Leather Jacket</h3>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita,
+                                deserunt.</p>
                         </div>
                         <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
                             <p>$234</p>
@@ -125,10 +127,9 @@
                     <div class="card panda-card h-100 shadow">
                         <img src="./Penguin Fashion/Image/snowboard_jackt_mens.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Supply-350</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Snowboard Jacket Mens</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, omnis!
+                            </p>
                         </div>
                         <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
                             <p>$234</p>
@@ -140,9 +141,9 @@
                     <div class="card h-100 shadow">
                         <img src="./Penguin Fashion/Image/man_leather_jackets.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Nike-360</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <h5 class="card-title">Man-Leather Jackets</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, id.
+                            </p>
                         </div>
                         <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
                             <p>$234</p>
@@ -154,11 +155,9 @@
                     <div class="card h-100 shadow">
                         <img src="./Penguin Fashion/Image/man_casual_jackets.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Red-Airmax</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This card has even longer content than the first to show that equal height
-                                action.</p>
+                            <h5 class="card-title">Man Casual Jackets</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                                consequatur?</p>
                         </div>
                         <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
                             <p>$234</p>
@@ -169,14 +168,69 @@
             </div>
         </section>
 
-        <!--------------------------------  FOOTER_SECTION  ---------------------------->
+        <!--------------------------------  BUSINESS_SECTION  ---------------------------->
 
-        <div class="container">
-            <div class="row row-cols-2">
-                <div class="col shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repellendus dolorum. Voluptates animi ut quasi unde voluptatibus ducimus blanditiis veniam?</div>
-                <div class="col shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repellendus dolorum. Voluptates animi ut quasi unde voluptatibus ducimus blanditiis veniam?</div>
+        <section class="container mt-5 pt-5">
+            <div class="row mt-5 pt-5">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="card mb-3 shadow" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./Penguin Fashion/Logo, Icon/icon_1.png" alt="..." class="w-100 h-100">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-2 pb-0">
+                                        <h5 class="card-title">Find the Perfect Fit</h5>
+                                        <p class="card-text">Everybody is different, which is why we offer styles for
+                                            every body.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card mb-3 shadow" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./Penguin Fashion/Logo, Icon/icon_2.png" alt="..." class="w-100 h-100">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-2 pb-0">
+                                        <h5 class="card-title">Free Exchanges</h5>
+                                        <p class="card-text">One of the many reasons you can shop
+                                            with peace of mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card mb-3 shadow" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./Penguin Fashion/Logo, Icon/icon_3.png" alt="..." class="w-100 h-100">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-2 pb-0">
+                                        <h5 class="card-title">Contact Our Seller</h5>
+                                        <p class="card-text">They are here to help you. That's quite
+                                            literally what we pay them for.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="big-icon">
+                        <img src="./Penguin Fashion/Logo, Icon/Big_icon.png" class="w-100 h-100" alt="...">
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
+
+    <!-------------------------------------- FOOTER_SECTION ----------------------->
 
 </html>
