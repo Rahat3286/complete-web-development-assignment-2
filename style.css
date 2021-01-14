@@ -1,3 +1,23 @@
+/* ---------- navbar_design --------*/
+
+a{
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover{
+    background: rgb(220, 212, 212);
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+
+
+/* -----pofile_area_design */
+
 .profile-card{
     border: 0;
 }
@@ -5,4 +25,107 @@
 .profile-card-footer{
     background-color: white;
     border: 0;
+}
+
+.profile-section-text p:nth-child(1){
+    color: rgb(248,189,87);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: calibri;
+    letter-spacing: 0px;
+    line-height: 40px;
+}
+.profile-section-text p:nth-child(2){
+    font-size: 15px;
+    font-weight: bold;
+    font-family: calibri;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+.profile-special-text{
+    color: rgb(54,58,87);
+}
+
+/* ------------- woman_jacket(wj)_area_design ------------ */
+
+.wj-special-text{
+    color: rgb(54,58,87);
+    font-family: calibri;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.wj-section-text p:nth-child(1){
+    color: rgb(54,58,87);
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: bold;
+}
+.wj-section-text p:nth-child(2){
+    font-family: calibri;
+    font-size: 15px;
+}
+
+/* ---------- man_jacket_area_design ---------------- */
+
+.man-special-text{
+    color: rgb(54,58,87);
+    font-family: calibri;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.man-section-text p:nth-child(1){
+    color: rgb(54,58,87);
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.man-section-text p:nth-child(2){
+    font-family: calibri;
+}
+
+/* --------- Business_area_design ---------- */
+
+.business-special-text p:nth-child(1){
+    color: rgb(54,58,87);
+    font-family: calibri;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.business-special-text p:nth-child(2){
+    font-family: calibri;
+}
+
+.business-card{
+    border-radius: 15px;
+}
+
+.business-card-footer{
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+}
+
+.button-design{
+	width: 170px;
+    height: 60px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(150,173,62);
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: calibri;
+    color: white;
+    line-height: 20px;
+}
+
+.price-tag{
+    font-family: calibri;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(248,189,87);
 }

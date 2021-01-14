@@ -7,12 +7,13 @@
     <title>Assignment-2</title>
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!--------------- navigation ------------->
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./Penguin Fashion/Logo, Icon/LOGO.png" alt=""
                         class="w-100 h-100"></a>
@@ -21,14 +22,14 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link active" href="#">Product</a>
-                            <a class="nav-link active" href="#">About Us</a>
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
-                        </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav navbar-items" style="margin-left: auto;">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" href="#">Product</a>
+                        <a class="nav-link active" href="#">About Us</a>
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
                     </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -42,27 +43,20 @@
         <section class="pt-5">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
-                    <div class="card profile-card h-100 shadow">
-                        <div class="card-body">
-                            <h1>BE THE PENGUINS <br>OF WINTER</h1>
+                    <div class="card profile-card pt-5 mt-5">
+                        <div class="card-body profile-section-text">
+                            <p>BE THE PENGUINS <br><span class="profile-special-text">OF WINTER</span></p>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione perferendis dicta
                                 numquam eligendi ex iure.</p>
                         </div>
                         <div class="card-footer profile-card-footer">
-                            <button type="button" class="btn btn-warning">BUY</button>
+                            <button type="button" class="btn button-design"><i class="fa fa-shopping-cart"></i><span class="p-2">BUY NOW</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card profile-card h-100 shadow">
-                        <img src="./Penguin Fashion/Image/" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Nike-360</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
-                        </div>
-                        <div class="card-footer profile-card-footer">
-                        </div>
+                    <div class="card profile-card w-100 pt-0 mt-0">
+                        <img src="./Penguin Fashion/Image/character.png" class="card-img-top" alt="...">
                     </div>
                 </div>
             </div>
@@ -71,47 +65,47 @@
         <!--------------------------- WOMAN_JACKET_SECTION ------------------------>
 
         <section class="mt-5 mb-5">
-            <h2>Women Jacket</h2>
+            <h2 class="wj-special-text">Women Jacket</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
                 <div class="col">
-                    <div class="card panda-card h-100 shadow">
+                    <div class="card business-card h-100 shadow">
                         <img src="./Penguin Fashion/Image/yellow_coat_jacket.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Yellow Coat Jacket</h3>
+                        <div class="card-body wj-section-text">
+                            <p class="card-title">Yellow Coat Jacket</p>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, tempore.
                             </p>
                         </div>
-                        <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
-                            <p>$234</p>
-                            <button class="btn-warning">Buy Now</button>
+                        <div class="card-footer business-card-footer d-flex align-items-center justify-content-around">
+                            <p class="price-tag pt-3">$234</p>
+                            <button class="btn button-design d-block"><i class="fa fa-shopping-cart"></i><span class="p-2">BUY NOW</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card h-100 business-card shadow">
                         <img src="./Penguin Fashion/Image/ladies_jacket.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Ladies Jacket</h3>
+                        <div class="card-body wj-section-text">
+                            <p class="card-title">Ladies Jacket</p>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi ipsum
                                 illo fugiat?</p>
                         </div>
-                        <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
-                            <p>$234</p>
-                            <button class="btn-warning">Buy Now</button>
+                        <div class="card-footer business-card-footer d-flex align-items-center justify-content-around">
+                            <p class="price-tag pt-3">$234</p>
+                            <button class="btn button-design"><i class="fa fa-shopping-cart"></i><span class="p-2">BUY NOW</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card h-100 business-card shadow">
                         <img src="./Penguin Fashion/Image/woman_leather_jacket.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Woman Leather Jacket</h3>
+                        <div class="card-body wj-section-text">
+                            <p class="card-title">Woman Leather Jacket</p>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita,
                                 deserunt.</p>
                         </div>
-                        <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
-                            <p>$234</p>
-                            <button class="btn-warning">Buy Now</button>
+                        <div class="card-footer business-card-footer d-flex align-items-center justify-content-around">
+                            <p class="price-tag pt-3">$234</p>
+                            <button class="btn button-design"><i class="fa fa-shopping-cart"></i><span class="p-2">BUY NOW</span></button>
                         </div>
                     </div>
                 </div>
@@ -121,47 +115,47 @@
         <!---------------------------- MAN_JACKET_SECTION -------------------------->
 
         <section class="mt-5 mb-5">
-            <h2 class="mt-5 mb-5">MAN JACKET</h2>
+            <h2 class="mt-5 mb-5 man-special-text">MAN JACKET</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card panda-card h-100 shadow">
+                    <div class="card business-card h-100 shadow">
                         <img src="./Penguin Fashion/Image/snowboard_jackt_mens.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Snowboard Jacket Mens</h5>
+                        <div class="card-body man-section-text">
+                            <p class="card-title">Snowboard Jacket Mens</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, omnis!
                             </p>
                         </div>
-                        <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
-                            <p>$234</p>
-                            <button class="btn-warning">Buy Now</button>
+                        <div class="card-footer business-card-footer d-flex align-items-center justify-content-around">
+                            <p class="price-tag pt-3">$234</p>
+                            <button class="btn button-design"><i class="fa fa-shopping-cart"></i><span class="p-2">BUY NOW</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card business-card h-100 shadow">
                         <img src="./Penguin Fashion/Image/man_leather_jackets.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Man-Leather Jackets</h5>
+                        <div class="card-body man-section-text">
+                            <p class="card-title">Man-Leather Jackets</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, id.
                             </p>
                         </div>
-                        <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
-                            <p>$234</p>
-                            <button class="btn-warning">Buy Now</button>
+                        <div class="card-footer business-card-footer d-flex align-items-center justify-content-around">
+                            <p class="price-tag pt-3">$234</p>
+                            <button class="btn button-design"><i class="fa fa-shopping-cart"></i><span class="p-2">BUY NOW</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card h-100 business-card shadow">
                         <img src="./Penguin Fashion/Image/man_casual_jackets.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Man Casual Jackets</h5>
+                        <div class="card-body man-section-text">
+                            <p class="card-title">Man Casual Jackets</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
                                 consequatur?</p>
                         </div>
-                        <div class="card-footer panda-card-footer d-flex align-items-center justify-content-around">
-                            <p>$234</p>
-                            <button class="btn-warning">Buy Now</button>
+                        <div class="card-footer business-card-footer d-flex align-items-center justify-content-around">
+                            <p class="price-tag pt-3">$234</p>
+                            <button class="btn button-design"><i class="fa fa-shopping-cart"></i><span class="p-2">BUY NOW</span></button>
                         </div>
                     </div>
                 </div>
@@ -170,34 +164,37 @@
 
         <!--------------------------------  BUSINESS_SECTION  ---------------------------->
 
-        <section class="container mt-5 pt-5">
-            <div class="row mt-5 pt-5">
+        <section class="container pt-5">
+            <div class="row d-flex flex-row-reverse pt-5">
+                <div class="col-md-8">
+                    <img src="./Penguin Fashion/Logo, Icon/big-icon.png" alt="" class="w-100 h-100 pb-5">
+                </div>
                 <div class="col-md-4">
                     <div class="row">
-                        <div class="card mb-3 shadow" style="max-width: 540px;">
+                        <div class="card mb-4 shadow business-card" style="max-width: 540px;">
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="./Penguin Fashion/Logo, Icon/icon_1.png" alt="..." class="w-100 h-100">
+                                <div class="col-md-2">
+                                    <img src="./Penguin Fashion/Logo, Icon/icon_1.png" alt="..." class="w-100 pt-4">
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body pt-2 pb-0">
-                                        <h5 class="card-title">Find the Perfect Fit</h5>
-                                        <p class="card-text">Everybody is different, which is why we offer styles for
-                                            every body.</p>
+                                <div class="col-md-10">
+                                    <div class="card-body business-special-text">
+                                        <p class="card-title">Find the Perfect Fit</p>
+                                        <p class="card-text">Everybody is different, which is why we
+                                            offer styles for every body.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="card mb-3 shadow" style="max-width: 540px;">
+                        <div class="card mb-4 shadow business-card" style="max-width: 540px;">
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="./Penguin Fashion/Logo, Icon/icon_2.png" alt="..." class="w-100 h-100">
+                                <div class="col-md-2">
+                                    <img src="./Penguin Fashion/Logo, Icon/icon_2.png" alt="..." class="w-100 pt-4">
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body pt-2 pb-0">
-                                        <h5 class="card-title">Free Exchanges</h5>
+                                <div class="col-md-10">
+                                    <div class="card-body business-special-text">
+                                        <p class="card-title">Free Exchanges</p>
                                         <p class="card-text">One of the many reasons you can shop
                                             with peace of mind.</p>
                                     </div>
@@ -206,25 +203,20 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="card mb-3 shadow" style="max-width: 540px;">
+                        <div class="card mb-4 shadow business-card" style="max-width: 540px;">
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="./Penguin Fashion/Logo, Icon/icon_3.png" alt="..." class="w-100 h-100">
+                                <div class="col-md-2">
+                                    <img src="./Penguin Fashion/Logo, Icon/icon_3.png" alt="..." class="w-100 pt-4">
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body pt-2 pb-0">
-                                        <h5 class="card-title">Contact Our Seller</h5>
+                                <div class="col-md-10">
+                                    <div class="card-body business-special-text">
+                                        <p class="card-title">Contact Our Seller</p>
                                         <p class="card-text">They are here to help you. That's quite
-                                            literally what we pay them for.</p>
+                                            literally what we pay them for</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="big-icon">
-                        <img src="./Penguin Fashion/Logo, Icon/Big_icon.png" class="w-100 h-100" alt="...">
                     </div>
                 </div>
             </div>
@@ -232,5 +224,5 @@
     </main>
 
     <!-------------------------------------- FOOTER_SECTION ----------------------->
-
+    <script src="./js/bootstrap.min.js"></script>
 </html>
