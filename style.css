@@ -129,3 +129,68 @@ a:hover{
     font-weight: bold;
     color: rgb(248,189,87);
 }
+
+/* ------------------------------- footer ------------------------------- */
+
+.footer-text p:nth-child(1){
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+}
+.footer-text p:nth-child(2){
+    font-size: 20px;
+    font-family: calibri;
+}
+.footer-text p:nth-child(3){
+    font-size: 30px;
+    font-family: calibri;
+}
+
+
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(46, 40, 29);
+	border-radius:50%;
+	margin:20px 10px;
+}
+
+
+.social-icons i:nth-child(1){
+	color: white;
+	background-color: rgb(46, 40, 29);
+}
+
+.social-icons a:hover{
+	background-color:rgb(46, 40, 29);
+	transition: all ease 0.6s;
+}
+
+.attached-social-bar a:hover{
+	background-color:rgb(46, 40, 29);
+	transition: all ease 0.6s;
+}
+
+#facebook:hover{
+	color: rgb(28, 132, 201);
+}
+#twitter:hover{
+	color: rgb(74,170,237);
+}
+#instagram:hover{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	border-radius: 20px;
+}
+#youtube:hover{
+	color: rgb(255,23,3);
+}
+
+.copyright{
+    font-size: 12px;
+    font-family: calibri;
+    font-weight: bold;
+}
+
